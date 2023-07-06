@@ -1,6 +1,9 @@
+// Imported Components
+import { Header } from "./components/Header";
+
 // App
 function App() {
-	return <>Easybank</>;
+	return <Header />;
 }
 
 // Export
