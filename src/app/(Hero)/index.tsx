@@ -5,7 +5,7 @@ export default function Hero() {
   // Rendering
   return (
     <section className="h-screen bg-r bg-neutral-600 relative">
-      <div className="container flex h-full gap-40 items-center bg-red">
+      <div className="container flex flex-col md:flex-row h-full gap-40 items-center bg-red">
         {/* Text */}
         <div className="flex flex-col gap-7 ">
           <h1 className="text-6xl leading-[1.2] text-primary">
@@ -24,7 +24,7 @@ export default function Hero() {
         <div className="w-full h-full relative">
           <Image
             src="/img/hero/hero-img.png"
-            className="w-full h-auto absolute top-10 r-[10vw]"
+            className="w-full h-auto absolute md:top-10 r-[10vw]"
             width={767}
             height={939}
             alt="Celulares"
