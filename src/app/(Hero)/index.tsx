@@ -4,10 +4,10 @@ import Image from 'next/image'
 export default function Hero() {
   // Rendering
   return (
-    <section className="h-screen bg-r bg-neutral-600 relative">
-      <div className="container flex flex-col md:flex-row h-full gap-40 items-center bg-red">
+    <section className="h-screen bg-[url('/img/hero/hero-bg.svg')] bg-no-repeat bg-[70rem_-10rem] bg-neutral-600 relative">
+      <div className="container flex flex-col-reverse md:flex-row h-full md:gap-40 items-center bg-red">
         {/* Text */}
-        <div className="flex flex-col gap-7 ">
+        <div className="flex items-center text-center md:items-start md:text-left flex-col gap-7">
           <h1 className="text-6xl leading-[1.2] text-primary">
             Next generation digital banking
           </h1>
@@ -21,10 +21,10 @@ export default function Hero() {
           </a>
         </div>
         {/* Image */}
-        <div className="w-full h-full relative">
+        <div className="w-full h-full">
           <Image
             src="/img/hero/hero-img.png"
-            className="w-full h-auto absolute md:top-10 r-[10vw]"
+            className="md:w-[140%] h-auto md:translate-y-[-1rem] md:translate-x-[20rem]"
             width={767}
             height={939}
             alt="Celulares"
