@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Hero() {
   // Rendering
   return (
-    <section className="h-screen bg-[url('/img/hero/hero-bg.svg')] bg-no-repeat bg-[70rem_-10rem] bg-neutral-600 relative">
+    <section className="h-screen bg-[url('/img/hero/hero-bg.svg')] bg-no-repeat bg-[70rem_-10rem] bg-[#fafbfb] relative">
       <div className="container flex flex-col-reverse md:flex-row h-full md:gap-40 items-center bg-red">
         {/* Text */}
         <div className="flex items-center text-center md:items-start md:text-left flex-col gap-7">
