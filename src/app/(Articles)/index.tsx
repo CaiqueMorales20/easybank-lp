@@ -21,8 +21,8 @@ export default function Articles() {
               Receive money in any currency with no fees
             </h3>
             <p className="text-sm text-neutral-700 font-medium">
-              The world is getting smaller and we're becoming more mobile. So
-              why should you be forced to only receive money in a single...
+              The world is getting smaller and were becoming more mobile. So why
+              should you be forced to only receive money in a single...
             </p>
           </div>
         </div>
@@ -40,8 +40,8 @@ export default function Articles() {
               Receive money in any currency with no fees
             </h3>
             <p className="text-sm text-neutral-700 font-medium">
-              The world is getting smaller and we're becoming more mobile. So
-              why should you be forced to only receive money in a single...
+              The world is getting smaller and were becoming more mobile. So why
+              should you be forced to only receive money in a single...
             </p>
           </div>
         </div>
@@ -59,8 +59,8 @@ export default function Articles() {
               Receive money in any currency with no fees
             </h3>
             <p className="text-sm text-neutral-700 font-medium">
-              The world is getting smaller and we're becoming more mobile. So
-              why should you be forced to only receive money in a single...
+              The world is getting smaller and were becoming more mobile. So why
+              should you be forced to only receive money in a single...
             </p>
           </div>
         </div>
@@ -78,8 +78,8 @@ export default function Articles() {
               Receive money in any currency with no fees
             </h3>
             <p className="text-sm text-neutral-700 font-medium">
-              The world is getting smaller and we're becoming more mobile. So
-              why should you be forced to only receive money in a single...
+              The world is getting smaller and were becoming more mobile. So why
+              should you be forced to only receive money in a single...
             </p>
           </div>
         </div>
