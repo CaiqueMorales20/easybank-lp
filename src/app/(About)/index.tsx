@@ -7,7 +7,9 @@ export default function About() {
     <section className="bg-neutral-600 py-32">
       <div className="container flex flex-col gap-20">
         <div className="flex flex-col gap-10">
-          <h1 className="text-4xl text-primary">Why choose Easybank?</h1>
+          <h1 className="text-[40px] leading-[64px] text-primary">
+            Why choose Easybank?
+          </h1>
           <p className="text-base">
             We leverage Open Banking to turn your bank account into financial
             hub.

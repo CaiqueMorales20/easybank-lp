@@ -5,7 +5,9 @@ export default function Articles() {
   // Rendering
   return (
     <section className="container py-32 flex flex-col gap-20">
-      <h1 className="text-4xl text-primary">Latest Articles</h1>
+      <h1 className="text-[40px] leading-[64px] text-primary">
+        Latest Articles
+      </h1>
       <div className="grid md:grid-cols-4 gap-10">
         {/* Item */}
         <div>

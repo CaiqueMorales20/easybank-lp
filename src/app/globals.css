@@ -15,7 +15,11 @@ body{
 .button{
   border-radius: 9999px;
   padding: 1rem 3rem;
-  background-color: hsl(136, 65%, 51%);
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
   width: max-content;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
 }
