@@ -5,9 +5,9 @@ export default function Footer() {
   // Rendering
   return (
     <footer className="bg-primary py-[48px]">
-      <div className="container flex gap-[131px]">
+      <div className="container flex flex-col md:flex-row gap-[32px] md:gap-[131px]">
         {/* Logo */}
-        <div className="flex flex-col justify-between">
+        <div className="flex flex-col items-center gap-[32px] md:gap-0 md:items-start justify-between">
           <Image
             src="/icon/logo-footer.svg"
             alt="Logo do footer"
@@ -48,7 +48,7 @@ export default function Footer() {
           </div>
         </div>
         {/* Links */}
-        <div className="grid grid-cols-2 gap-[30px]">
+        <div className="grid justify-center text-center md:text-left gap-2 md:grid-cols-2 md:gap-[30px]">
           <ul className="flex flex-col gap-2">
             <li className="text-[15px] leading-[26px] md:w-[160px] text-white">
               About Us
@@ -73,7 +73,7 @@ export default function Footer() {
           </ul>
         </div>
         {/* Button */}
-        <div className="ml-auto flex flex-col gap-[24px] items-end">
+        <div className="md:ml-auto flex flex-col gap-[24px] items-center md:items-end">
           <a href="" className="button">
             Request invite
           </a>
