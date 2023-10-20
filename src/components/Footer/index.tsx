@@ -50,24 +50,24 @@ export default function Footer() {
         {/* Links */}
         <div className="grid justify-center text-center md:text-left gap-2 md:grid-cols-2 md:gap-[30px]">
           <ul className="flex flex-col gap-2">
-            <li className="text-[15px] leading-[26px] md:w-[160px] text-white">
+            <li className="text-[15px] leading-[26px] md:w-[160px] text-white hover:text-secondary duration-300 cursor-pointer">
               About Us
             </li>
-            <li className="text-[15px] leading-[26px] md:w-[160px] text-white">
+            <li className="text-[15px] leading-[26px] md:w-[160px] text-white hover:text-secondary duration-300 cursor-pointer">
               Blog
             </li>
-            <li className="text-[15px] leading-[26px] md:w-[160px] text-white">
+            <li className="text-[15px] leading-[26px] md:w-[160px] text-white hover:text-secondary duration-300 cursor-pointer">
               Contact
             </li>
           </ul>
           <ul className="flex flex-col gap-2">
-            <li className="text-[15px] leading-[26px] md:w-[160px] text-white">
+            <li className="text-[15px] leading-[26px] md:w-[160px] text-white hover:text-secondary duration-300 cursor-pointer">
               Careers
             </li>
-            <li className="text-[15px] leading-[26px] md:w-[160px] text-white">
+            <li className="text-[15px] leading-[26px] md:w-[160px] text-white hover:text-secondary duration-300 cursor-pointer">
               Support
             </li>
-            <li className="text-[15px] leading-[26px] md:w-[160px] text-white">
+            <li className="text-[15px] leading-[26px] md:w-[160px] text-white hover:text-secondary duration-300 cursor-pointer">
               Privacy Policy
             </li>
           </ul>

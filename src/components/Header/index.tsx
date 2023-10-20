@@ -13,7 +13,7 @@ export default function Header() {
   // Rendering
   return (
     <header className="shadow-sm absolute z-40 w-full bg-white">
-      <nav className="w-[90vw] max-w-[1880px] bg-white  z-20 mx-auto flex justify-between  md:grid md:grid-cols-3 h-24 items-center ">
+      <nav className="w-[90vw] max-w-[1440px] bg-white  z-20 mx-auto flex justify-between  md:grid md:grid-cols-3 h-24 items-center ">
         {/* Logo */}
         <Image
           src="/icon/logo.svg"

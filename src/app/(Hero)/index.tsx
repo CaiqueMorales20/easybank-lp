@@ -5,13 +5,13 @@ export default function Hero() {
   // Rendering
   return (
     <section className="h-screen bg-[url('/img/hero/hero-bg.svg')] bg-no-repeat bg-[70rem_-10rem] bg-[#fafbfb] relative">
-      <div className="container flex flex-col-reverse md:flex-row h-full md:gap-40 items-center bg-red">
+      <div className="container pb-[88px] md:pb-0 flex flex-col-reverse md:flex-row h-full md:gap-40 items-center bg-red">
         {/* Text */}
         <div className="flex items-center text-center md:items-start md:text-left flex-col gap-7">
-          <h1 className="text-6xl leading-[1.2] text-primary">
+          <h1 className="text-[40px] md:text-[56px] leading-[1.2] text-primary">
             Next generation digital banking
           </h1>
-          <p className="text-neutral-700 max-w-[30rem] text-xl">
+          <p className="text-neutral-700 max-w-[30rem] text-[14px] md:text-[18px]">
             Take your financial life online. Your Easybank account will be a
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.

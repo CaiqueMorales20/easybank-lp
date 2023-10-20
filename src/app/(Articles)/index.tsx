@@ -4,11 +4,11 @@ import Image from 'next/image'
 export default function Articles() {
   // Rendering
   return (
-    <section className="container py-32 flex flex-col gap-20">
-      <h1 className="text-[40px] leading-[64px] text-primary">
+    <section className="container py-[88px] md:py-[80px] flex flex-col gap-[31px] md:gap-[40px]">
+      <h1 className="text-[32px] md:text-[40px] md:leading-[64px] text-center md:text-left text-primary">
         Latest Articles
       </h1>
-      <div className="grid md:grid-cols-4 gap-10">
+      <div className="grid md:grid-cols-4 gap-[24px] md:gap-[30px]">
         {/* Item */}
         <div>
           <Image
@@ -17,12 +17,14 @@ export default function Articles() {
             height={600}
             alt="Artigo 3"
           />
-          <div className="flex flex-col gap-2 p-10 shadow-md">
-            <h4 className="text-xs">By Claire Robinsan</h4>
-            <h3 className="text-base">
+          <div className="flex flex-col gap-2 p-[31px] md:p-[24px] shadow-md">
+            <h4 className="text-[10px] leading-[18px] text-[#9597A5]">
+              By Claire Robinsan
+            </h4>
+            <h3 className="text-[16px] leading-[20px]">
               Receive money in any currency with no fees
             </h3>
-            <p className="text-sm text-neutral-700 font-medium">
+            <p className="text-[13px] leading-[18px] text-neutral-[#9597A5]">
               The world is getting smaller and were becoming more mobile. So why
               should you be forced to only receive money in a single...
             </p>
@@ -36,12 +38,14 @@ export default function Articles() {
             height={600}
             alt="Artigo 3"
           />
-          <div className="flex flex-col gap-2 p-10 shadow-md">
-            <h4 className="text-xs">By Claire Robinsan</h4>
-            <h3 className="text-base">
+          <div className="flex flex-col gap-2 p-[31px] md:p-[24px] shadow-md">
+            <h4 className="text-[10px] leading-[18px] text-[#9597A5]">
+              By Claire Robinsan
+            </h4>
+            <h3 className="text-[16px] leading-[20px]">
               Receive money in any currency with no fees
             </h3>
-            <p className="text-sm text-neutral-700 font-medium">
+            <p className="text-[13px] leading-[18px] text-neutral-[#9597A5]">
               The world is getting smaller and were becoming more mobile. So why
               should you be forced to only receive money in a single...
             </p>
@@ -55,12 +59,14 @@ export default function Articles() {
             height={600}
             alt="Artigo 3"
           />
-          <div className="flex flex-col gap-2 p-10 shadow-md">
-            <h4 className="text-xs">By Claire Robinsan</h4>
-            <h3 className="text-base">
+          <div className="flex flex-col gap-2 p-[31px] md:p-[24px] shadow-md">
+            <h4 className="text-[10px] leading-[18px] text-[#9597A5]">
+              By Claire Robinsan
+            </h4>
+            <h3 className="text-[16px] leading-[20px]">
               Receive money in any currency with no fees
             </h3>
-            <p className="text-sm text-neutral-700 font-medium">
+            <p className="text-[13px] leading-[18px] text-neutral-[#9597A5]">
               The world is getting smaller and were becoming more mobile. So why
               should you be forced to only receive money in a single...
             </p>
@@ -74,12 +80,14 @@ export default function Articles() {
             height={600}
             alt="Artigo 3"
           />
-          <div className="flex flex-col gap-2 p-10 shadow-md">
-            <h4 className="text-xs">By Claire Robinsan</h4>
-            <h3 className="text-base">
+          <div className="flex flex-col gap-2 p-[31px] md:p-[24px] shadow-md">
+            <h4 className="text-[10px] leading-[18px] text-[#9597A5]">
+              By Claire Robinsan
+            </h4>
+            <h3 className="text-[16px] leading-[20px]">
               Receive money in any currency with no fees
             </h3>
-            <p className="text-sm text-neutral-700 font-medium">
+            <p className="text-[13px] leading-[18px] text-neutral-[#9597A5]">
               The world is getting smaller and were becoming more mobile. So why
               should you be forced to only receive money in a single...
             </p>

@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-  width: min(90vw, 1800px);
+  width: min(90vw, 1440px);
   margin-inline: auto;
 }
 
