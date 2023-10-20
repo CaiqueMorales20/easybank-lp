@@ -68,7 +68,7 @@ export default function Header() {
           </li>
         </ul>
         {/* Cta */}
-        <a href="#" className="hidden md:flex button justify-self-end">
+        <a href="#" className="md:flex button justify-self-end hidden">
           Request Invite
         </a>
         {/* Hamburguer Button */}
