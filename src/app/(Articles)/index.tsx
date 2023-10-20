@@ -12,9 +12,10 @@ export default function Articles() {
         {/* Item */}
         <div>
           <Image
-            src="/img/articles/article_3.png"
+            src="/img/articles/article_1.png"
             width={600}
             height={600}
+            className="w-full h-auto max-h-[200px]"
             alt="Artigo 3"
           />
           <div className="flex flex-col gap-2 p-[31px] md:p-[24px] shadow-md">
@@ -33,21 +34,22 @@ export default function Articles() {
         {/* Item */}
         <div>
           <Image
-            src="/img/articles/article_3.png"
+            src="/img/articles/article_2.png"
             width={600}
             height={600}
+            className="aspect-square h-[200px]"
             alt="Artigo 3"
           />
           <div className="flex flex-col gap-2 p-[31px] md:p-[24px] shadow-md">
             <h4 className="text-[10px] leading-[18px] text-[#9597A5]">
-              By Claire Robinsan
+              By Wilson Hutton
             </h4>
             <h3 className="text-[16px] leading-[20px]">
-              Receive money in any currency with no fees
+              Treat yourself without worrying about money
             </h3>
             <p className="text-[13px] leading-[18px] text-neutral-[#9597A5]">
-              The world is getting smaller and were becoming more mobile. So why
-              should you be forced to only receive money in a single...
+              Our simple budgeting feature allows you to separate out your
+              spending and set realistic limits each month. That means you …
             </p>
           </div>
         </div>
@@ -57,27 +59,29 @@ export default function Articles() {
             src="/img/articles/article_3.png"
             width={600}
             height={600}
+            className="aspect-square h-[200px]"
             alt="Artigo 3"
           />
           <div className="flex flex-col gap-2 p-[31px] md:p-[24px] shadow-md">
             <h4 className="text-[10px] leading-[18px] text-[#9597A5]">
-              By Claire Robinsan
+              By Wilson Hutton
             </h4>
             <h3 className="text-[16px] leading-[20px]">
-              Receive money in any currency with no fees
+              Take your Easybank card wherever you go
             </h3>
             <p className="text-[13px] leading-[18px] text-neutral-[#9597A5]">
-              The world is getting smaller and were becoming more mobile. So why
-              should you be forced to only receive money in a single...
+              We want you to enjoy your travels. This is why we don’t charge any
+              fees on purchases while you’re abroad. We’ll even show you …
             </p>
           </div>
         </div>
         {/* Item */}
         <div>
           <Image
-            src="/img/articles/article_3.png"
+            src="/img/articles/article_4.png"
             width={600}
             height={600}
+            className="aspect-square h-[200px]"
             alt="Artigo 3"
           />
           <div className="flex flex-col gap-2 p-[31px] md:p-[24px] shadow-md">
@@ -85,11 +89,12 @@ export default function Articles() {
               By Claire Robinsan
             </h4>
             <h3 className="text-[16px] leading-[20px]">
-              Receive money in any currency with no fees
+              Our invite-only Beta accounts are now live!
             </h3>
             <p className="text-[13px] leading-[18px] text-neutral-[#9597A5]">
-              The world is getting smaller and were becoming more mobile. So why
-              should you be forced to only receive money in a single...
+              After a lot of hard work by the whole team, were excited to launch
+              our closed beta. Its easy to request an invite through the site
+              ...
             </p>
           </div>
         </div>

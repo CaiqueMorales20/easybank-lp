@@ -30,35 +30,45 @@ export default function About() {
           </div>
           {/* Item */}
           <div className="flex items-center md:items-start text-center md:text-left flex-col gap-8">
-            <Image src="/icon/online.svg" alt="Online" width={72} height={72} />
+            <Image
+              src="/icon/budgeting.svg"
+              alt="Online"
+              width={72}
+              height={72}
+            />
             <h3 className="text-[20px] md:text-[24px] font-[300] text-[#2D314D]">
-              Online Banking
+              Simple Budgeting
             </h3>
             <p className="text-neutral-700">
-              Our modern web and mobile applications allow you to keep track of
-              your finnaces wherever you are in the world.
+              See exactly where your money goes each month. Receive
+              notifications when youre close to hitting your limits.
             </p>
           </div>
           {/* Item */}
           <div className="flex items-center md:items-start text-center md:text-left flex-col gap-8">
-            <Image src="/icon/online.svg" alt="Online" width={72} height={72} />
+            <Image
+              src="/icon/onboarding.svg"
+              alt="Online"
+              width={72}
+              height={72}
+            />
             <h3 className="text-[20px] md:text-[24px] font-[300] text-[#2D314D]">
-              Online Banking
+              Fast Onboarding
             </h3>
             <p className="text-neutral-700">
-              Our modern web and mobile applications allow you to keep track of
-              your finnaces wherever you are in the world.
+              We don’t do branches. Open your account in minutes online and
+              start taking control of your finances right away.
             </p>
           </div>
           {/* Item */}
           <div className="flex items-center md:items-start text-center md:text-left flex-col gap-8">
-            <Image src="/icon/online.svg" alt="Online" width={72} height={72} />
+            <Image src="/icon/api.svg" alt="Online" width={72} height={72} />
             <h3 className="text-[20px] md:text-[24px] font-[300] text-[#2D314D]">
-              Online Banking
+              Open API
             </h3>
             <p className="text-neutral-700">
-              Our modern web and mobile applications allow you to keep track of
-              your finnaces wherever you are in the world.
+              Manage your savings, investments, pension, and much more from one
+              account. Tracking your money has never been easier.
             </p>
           </div>
         </div>
